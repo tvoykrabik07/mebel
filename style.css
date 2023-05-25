@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+header{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: none;
+    padding: 15px;
+    border-bottom: 1px solid rgb(211, 203, 203);
+}
+header>section>h1{
+    color: #3F3F3F;
+    font-size: 25px;
+    font-weight: 700;
+}
+header>section>a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: #3F3F3F;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+header>section{
+    text-align: center;
+}
+main>.start>img{
+    width:100%;  
+}
+main>.start{
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    color: white
+}
+main>.start>article{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main>.start>article>h2{
+    font-size: 45px;
+    margin-bottom: 28px;
+}
+main>.start>article>button{
+    background-color: rgba(0, 0, 0, 0);
+    border: white 2px solid;
+    text-transform: uppercase;
+    padding: 5px 30px;
+    color: white;
+}
+main>.start>.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99.5%;
+    background: rgba(0, 0, 0, .3);
+}
+main>.dostavka{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: none;
+}
+main>.dostavka>article>p{
+    text-align: center;
+}
+main>.img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: none;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+main>.img>article>img{
+    width: 100%;
+}
+main>.grid>.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: none;
+    margin-bottom: 20px;
+}
+main>.grid>.grid1>article>img{
+    float: right;
+    width: 100%;
+    object-fit: cover;
+}
+main>.grid>.grid1>article:nth-child(1){
+    grid-column: span 1;
+}
+main>.grid>.grid1>article:nth-child(2){
+    grid-column: span 2;
+}
+main>.grid>.grid2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: none;
+    margin-bottom: 20px;
+}
+main>.grid>.grid2>article>img{
+    float: left;
+    width: 100%;
+    object-fit: cover;
+}
+main>.grid>.grid2>article:nth-child(1){
+    grid-column: span 2;
+}
+main>.grid>.grid2>article:nth-child(2){
+    grid-column: span 1;
+}
+main>.grid>.grid3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: none;
+    margin-bottom: 20px;
+}
+main>.grid>.grid3>article>img{
+    float: right;
+    width: 100%;
+    object-fit: cover;
+}
+main>.grid>.grid3>article:nth-child(1){
+    grid-column: span 1;
+}
+main>.grid>.grid3>article:nth-child(2){
+    grid-column: span 2;
+}
+main>.grid>.grid4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: none;
+    margin-bottom: 20px;
+}
+main>.grid>.grid4>article>img{
+    float: left;
+    width: 100%;
+    object-fit: cover;
+}
+main>.grid>.grid4>article:nth-child(1){
+    grid-column: span 2;
+}
+main>.grid>.grid4>article:nth-child(2){
+    grid-column: span 1;
+}
+main>.grid>.grid5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: none;
+    margin-bottom: 60px;
+}
+main>.grid>.grid5>article>img{
+    float: right;
+    width: 100%;
+    object-fit: cover;
+}
+main>.grid>.grid5>article:nth-child(1){
+    grid-column: span 1;
+}
+main>.grid>.grid5>article:nth-child(2){
+    grid-column: span 2;
+}
+main>.grid>.grid1>article{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+    padding: 25px;
+}
+main>.grid>.grid2>article{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    padding: 25px;
+}
+main>.grid>.grid3>article{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+    padding: 25px;
+}
+main>.grid>.grid4>article{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: right;
+    padding: 25px;
+}
+main>.grid>.grid5>article{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+    padding: 25px;
+}
+main>.grid>.grid1>article>h2{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+main>.grid>.grid2>article>h2{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+main>.grid>.grid3>article>h2{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+main>.grid>.grid4>article>h2{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+main>.grid>.grid5>article>h2{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+main>.grid>.grid1>article>p{
+    margin: 10px;
+}
+main>.grid>.grid1>article>a{
+    margin-top: 45px;
+    color: black;
+    font-weight: 700;
+}
+main>.grid>.grid2>article>p{
+    margin: 10px;
+}
+main>.grid>.grid2>article>a{
+    margin-top: 45px;
+    color: black;
+    font-weight: 700;
+}
+main>.grid>.grid3>article>p{
+    margin: 10px;
+}
+main>.grid>.grid3>article>a{
+    margin-top: 45px;
+    color: black;
+    font-weight: 700;
+}main>.grid>.grid4>article>p{
+    margin: 10px;
+}
+main>.grid>.grid4>article>a{
+    margin-top: 45px;
+    color: black;
+    font-weight: 700;
+}main>.grid>.grid5>article>p{
+    margin: 10px;
+}
+main>.grid>.grid5>article>a{
+    margin-top: 45px;
+    color: black;
+    font-weight: 700;
+}
+main>.Our>h2{
+    color: #474141;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+main>.Our>p{
+    text-align: center;
+    margin: 10px;
+}
+main>.Our>section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: none;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+main>.Our>section>article{
+    padding: 7px;
+}
+main>.Our>section>article>img{
+    width: 100%;
+}
+main>.Our>article{
+    text-align: center;
+    margin-top: 80px;
+}
+main>.Our>article>p{
+    padding: 20px;
+}
+main>.wood{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: none;
+    margin-top: 60px;
+    padding: 40px 0px;
+}
+main>.wood>article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+main>.wood>article>i{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+main>.wood>article>h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+main>.wood>article>p{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+main>.wood>article>a{
+    color: black;
+    font-size: 13px;
+}
+main>.pp>p{
+    margin-top: 120px;
+    font-size: 17px;
+    text-align: center;
+}
+footer{
+    margin-top: 70px;
+}
+footer{
+    background-color: rgba(234, 234, 234, 0.947);
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 30px;
+}
+footer>article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+footer>article>h3{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 24px;
+}
+footer>article>p{
+    padding: 7px 0px;
+    font-size: 13px;
+}
+footer>article>h4{
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+footer>article>button{
+    background-color: white;
+    padding: 3px;
+    margin: 0px 76px;
+    border: 1px black solid;
+}
