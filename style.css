@@ -193,7 +193,7 @@ main>.grid>.grid4>article{
     display: flex;
     flex-direction: column;
     align-items: start;
-    text-align: right;
+    text-align: left;
     padding: 25px;
 }
 main>.grid>.grid5>article{
